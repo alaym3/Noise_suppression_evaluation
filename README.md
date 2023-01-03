@@ -1,7 +1,7 @@
 # PESQ_calculation
 PESQ calculation for comparing various noise suppression deep learning models.
 
-## In this repository we calculate the PESQ[http://www.recursosvoip.com/docs/english/pap465.pdf] score for noisy audio files run through various noise suppression and voice enhancement models that we evaluated in our project. 
+## In this repository we calculate the [PESQ](http://www.recursosvoip.com/docs/english/pap465.pdf) score for noisy audio files run through various noise suppression and voice enhancement models that we evaluated in our project. 
 
 **Evaluation process:**
 - Eight random and balanced, clean speech (no noise) samples were chosen.
@@ -14,6 +14,8 @@ PESQ calculation for comparing various noise suppression deep learning models.
   - All 4 models were tested on each noisy speech file, producing an output audio file for all the combinations of test file, dB level, and noise type.
   - Metrics of speech quality and intelligibility of the output files was calculated and compared.
 
+The noisy files are inside the test_data folder, and segmented based on noise type.
+The output files are inside the testing_output folder, and segmented based on the model.
 
 **PESQ** is an objective measure of speech quality, ranging from -0.5 to 4.5, using sharpness, volume, background noise. 
 
