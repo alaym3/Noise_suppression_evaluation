@@ -1,5 +1,4 @@
-# PESQ_calculation
-PESQ calculation for comparing various noise suppression deep learning models.
+# Noise suppression evaluation
 
 ## In this repository we calculate the [PESQ](http://www.recursosvoip.com/docs/english/pap465.pdf) score for noisy audio files run through various noise suppression and voice enhancement models that we evaluated in our project. 
 
