@@ -1,6 +1,6 @@
 # Noise suppression evaluation
 
-## In this repository we calculate the [PESQ](http://www.recursosvoip.com/docs/english/pap465.pdf) score for noisy audio files run through various noise suppression and voice enhancement models that we evaluated in our project. 
+## In this repository we calculate the [PESQ](http://www.recursosvoip.com/docs/english/pap465.pdf) score for noisy audio files run through various noise suppression and voice enhancement models that we evaluated in our project. Additionally we generated visualizations of the audio files, in order to get a more intuitive understanding of the results. 
 
 **Evaluation process:**
 - Eight random and balanced, clean speech (no noise) samples were chosen.
@@ -21,4 +21,7 @@ The output files are inside the testing_output folder, and segmented based on th
 The PESQ results for each model are shown below.
 
 <img width="539" alt="pesq_scores" src="https://user-images.githubusercontent.com/93861536/210414584-085f043c-263c-4d6a-953d-15bd239718a6.png">
+
+**Visualization:**
+- The "generate_visualizations" directory contains the code that was used to generate the visualizations of the amplitudes and frequency spectrum of the audio files.
 
