@@ -26,7 +26,6 @@ The PESQ results for each model are shown below.
 - The "generate_visualizations" directory contains the code that was used to generate the visualizations of the amplitudes and frequency spectrum of the audio files.
 
 The frequency spectrum at -5 and 5 dB SNR is shown below.
-
-<img width="539" alt="freq_viz" src=https://user-images.githubusercontent.com/92854788/210572624-e1b85de9-7ed1-432e-a8b3-d6bce90f0aca.png">
+![grafik](https://user-images.githubusercontent.com/92854788/210572884-23d8eef0-e641-4f98-836d-ef50cf83dfe3.png)
 
 
